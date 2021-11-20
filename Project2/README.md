@@ -1,4 +1,4 @@
-# Introsort & Quicksort stress testing
+# Introsort & Quicksort Stress Testing
 
 
 ### Implemented using c++
