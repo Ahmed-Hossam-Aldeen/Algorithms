@@ -4,7 +4,7 @@ using namespace std;
 
 //-------------------------------------------------introSort--------------------------------//	
 
-// Function to perform insertion sort on subarray `a[low…high]`
+// Function to perform insertion sort on subarray `a[lowâ€¦high]`
 void insertionsort(int a[], int low, int high)
 {
     // start from the second element in the subarray
@@ -14,7 +14,7 @@ void insertionsort(int a[], int low, int high)
         int value = a[i];
         int j = i;
 
-        // find index `j` within the sorted subset a[0…i-1]
+        // find index `j` within the sorted subset a[0â€¦i-1]
         // where element a[i] belongs
         while (j > low && a[j - 1] > value)
         {
@@ -22,8 +22,8 @@ void insertionsort(int a[], int low, int high)
             j--;
         }
 
-        // Note that the subarray `a[j…i-1]` is shifted to
-        // the right by one position, i.e., `a[j+1…i]`
+        // Note that the subarray `a[jâ€¦i-1]` is shifted to
+        // the right by one position, i.e., `a[j+1â€¦i]`
 
         a[j] = value;
     }
