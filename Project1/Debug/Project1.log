@@ -1,5 +1,0 @@
-﻿  stress.cpp
-E:\HANDSA\Year 3\Algorithms\Task1\Project1\Project1\strassen.h(48,12): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
-E:\HANDSA\Year 3\Algorithms\Task1\Project1\Project1\strassen.h(208,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-E:\HANDSA\Year 3\Algorithms\Task1\Project1\Project1\strassen.h(208,22): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-  Project1.vcxproj -> E:\HANDSA\Year 3\Algorithms\Task1\Project1\Debug\Project1.exe
